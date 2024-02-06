@@ -1,3 +1,4 @@
+
 window.addEventListener('keydown', (e) => {
     const insert = document.getElementById('insert')
     insert.innerHTML = `
@@ -14,6 +15,14 @@ window.addEventListener('keydown', (e) => {
    <div class="key">
         ${e.code} 
         <small>e.Code</small>
-    </div>
-    `
+    </div><br>
+    <button onclick="refreshPage()">Refresh Page</button>
+    ` 
+    const btn =document.querySelector('button')
+    function refreshPage() {
+        // Reload the current URL
+        location.reload();
+      }
+      btn.addEventListener('click',refreshPage)
+     
 })

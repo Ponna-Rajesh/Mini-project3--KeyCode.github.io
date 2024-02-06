@@ -41,6 +41,31 @@ body{
 .input-text{
     display: none;
 }
+p{
+    display: none; 
+}
+button{
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: 900;
+    background-color: darkorchid;
+    color: #fff;
+}
+button:hover{
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: 900;
+    background-color: rgb(8, 98, 108) ;
+    color: #fff;
+}
 @media (max-width: 46rem){
     .input-text{
         display: block;
@@ -48,5 +73,11 @@ body{
         display: inline-block;
         width:220px ;
         height: 35px;
+    }
+    p{
+        display: block; 
+        font-family: Poppins;
+        font-size: xx-small;
+        font-style: italic;
     }
 }
