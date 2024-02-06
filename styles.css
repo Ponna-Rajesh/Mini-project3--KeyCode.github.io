@@ -38,3 +38,15 @@ body{
     color: aqua;
     font-size: 20px; 
 }
+.input-text{
+    display: none;
+}
+@media (max-width: 46rem){
+    .input-text{
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        width:220px ;
+        height: 35px;
+    }
+}
